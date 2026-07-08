@@ -36,7 +36,6 @@ a:hover {
   text-decoration: underline;
 }
 
-
 ul {
   display: flex;
 }
@@ -207,11 +206,11 @@ header {
 
 .header__img--wrapper {
   padding: 20px;
-  z-index: 50px;
+  z-index: 50;
 }
 
 .container {
-  padding: 50px 0;
+  padding: 56px 0;
 }
 
 .row {
@@ -440,7 +439,7 @@ footer {
     width: 100%;
   }
 
-  .highlight:not(last-child) {
+  .highlight:not(:last-child) {
     margin-bottom: 24px;
   }
 }
